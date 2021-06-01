@@ -1,0 +1,144 @@
+Mar  7 07:13:59 silverlining sshd[22007]: SSH: Server;Ltype: Version;Remote: 142.93.141.126-38522;Protocol: 2.0;Client: libssh2_1.8.0
+Mar  7 07:13:59 silverlining sshd[22007]: SSH: Server;Ltype: Kex;Remote: 142.93.141.126-38522;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:14:00 silverlining sshd[22007]: SSH: Server;Ltype: Authname;Remote: 142.93.141.126-38522;Name: test [preauth]
+Mar  7 07:14:00 silverlining sshd[22007]: Invalid user  from 142.93.141.126 port 38522
+Mar  7 07:14:00 silverlining sshd[22007]: Received disconnect from 142.93.141.126 port 38522:11: Normal Shutdown, Thank you for playing [preauth]
+Mar  7 07:14:00 silverlining sshd[22007]: Disconnected from invalid user test 142.93.141.126 port 38522 [preauth]
+Mar  7 07:14:06 silverlining sshd[11864]: SSH: Server;Ltype: Version;Remote: 221.181.185.198-20051;Protocol: 2.0;Client: PUTTY
+Mar  7 07:14:06 silverlining sshd[11864]: SSH: Server;Ltype: Kex;Remote: 221.181.185.198-20051;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:14:08 silverlining sshd[11864]: Received disconnect from 221.181.185.198 port 20051:11:  [preauth]
+Mar  7 07:14:08 silverlining sshd[11864]: Disconnected from 221.181.185.198 port 20051 [preauth]
+Mar  7 07:20:10 silverlining sshd[20288]: SSH: Server;Ltype: Version;Remote: 221.181.185.223-12180;Protocol: 2.0;Client: PUTTY
+Mar  7 07:20:10 silverlining sshd[20288]: SSH: Server;Ltype: Kex;Remote: 221.181.185.223-12180;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:24:44 silverlining sshd[28956]: SSH: Server;Ltype: Version;Remote: 218.92.0.198-52211;Protocol: 2.0;Client: PUTTY
+Mar  7 07:24:44 silverlining sshd[28956]: SSH: Server;Ltype: Kex;Remote: 218.92.0.198-52211;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:28:42 silverlining sshd[20288]: ssh_dispatch_run_fatal: Connection from 221.181.185.223 port 12180: Operation timed out [preauth]
+Mar  7 07:29:33 silverlining sshd[12773]: SSH: Server;Ltype: Version;Remote: 218.92.0.198-45832;Protocol: 2.0;Client: PUTTY
+Mar  7 07:29:33 silverlining sshd[12773]: SSH: Server;Ltype: Kex;Remote: 218.92.0.198-45832;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:30:29 silverlining sshd[9970]: SSH: Server;Ltype: Version;Remote: 142.93.141.126-37778;Protocol: 2.0;Client: libssh2_1.8.0
+Mar  7 07:30:29 silverlining sshd[9970]: SSH: Server;Ltype: Kex;Remote: 142.93.141.126-37778;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:30:29 silverlining sshd[9970]: SSH: Server;Ltype: Authname;Remote: 142.93.141.126-37778;Name: test [preauth]
+Mar  7 07:30:29 silverlining sshd[9970]: Invalid user  from 142.93.141.126 port 37778
+Mar  7 07:30:29 silverlining sshd[9970]: Received disconnect from 142.93.141.126 port 37778:11: Normal Shutdown, Thank you for playing [preauth]
+Mar  7 07:30:29 silverlining sshd[9970]: Disconnected from invalid user test 142.93.141.126 port 37778 [preauth]
+Mar  7 07:31:08 silverlining sshd[16576]: SSH: Server;Ltype: Version;Remote: 218.92.0.198-41967;Protocol: 2.0;Client: PUTTY
+Mar  7 07:31:13 silverlining sshd[16576]: Received disconnect from 218.92.0.198 port 41967:11:  [preauth]
+Mar  7 07:31:13 silverlining sshd[16576]: Disconnected from 218.92.0.198 port 41967 [preauth]
+Mar  7 07:32:41 silverlining sshd[24150]: SSH: Server;Ltype: Version;Remote: 218.92.0.198-20982;Protocol: 2.0;Client: PUTTY
+Mar  7 07:32:41 silverlining sshd[24150]: SSH: Server;Ltype: Kex;Remote: 218.92.0.198-20982;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:32:42 silverlining sshd[24150]: Received disconnect from 218.92.0.198 port 20982:11:  [preauth]
+Mar  7 07:32:42 silverlining sshd[24150]: Disconnected from 218.92.0.198 port 20982 [preauth]
+Mar  7 07:33:47 silverlining sshd[28956]: ssh_dispatch_run_fatal: Connection from 218.92.0.198 port 52211: Operation timed out [preauth]
+Mar  7 07:37:30 silverlining sshd[8580]: SSH: Server;Ltype: Version;Remote: 221.131.165.124-52644;Protocol: 2.0;Client: PUTTY
+Mar  7 07:37:30 silverlining sshd[8580]: SSH: Server;Ltype: Kex;Remote: 221.131.165.124-52644;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:37:31 silverlining sshd[8580]: Received disconnect from 221.131.165.124 port 52644:11:  [preauth]
+Mar  7 07:37:31 silverlining sshd[8580]: Disconnected from 221.131.165.124 port 52644 [preauth]
+Mar  7 07:37:59 silverlining sshd[22185]: fatal: Timeout before authentication for 218.92.0.198 port 60153
+Mar  7 07:38:36 silverlining sshd[12773]: ssh_dispatch_run_fatal: Connection from 218.92.0.198 port 45832: Operation timed out [preauth]
+Mar  7 07:46:59 silverlining sshd[9528]: SSH: Server;Ltype: Version;Remote: 142.93.141.126-37038;Protocol: 2.0;Client: libssh2_1.8.0
+Mar  7 07:46:59 silverlining sshd[9528]: SSH: Server;Ltype: Kex;Remote: 142.93.141.126-37038;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:47:00 silverlining sshd[9528]: SSH: Server;Ltype: Authname;Remote: 142.93.141.126-37038;Name: tester [preauth]
+Mar  7 07:47:00 silverlining sshd[9528]: Invalid user tester from 142.93.141.126 port 37038
+Mar  7 07:47:00 silverlining sshd[9528]: Received disconnect from 142.93.141.126 port 37038:11: Normal Shutdown, Thank you for playing [preauth]
+Mar  7 07:47:00 silverlining sshd[9528]: Disconnected from invalid user tester 142.93.141.126 port 37038 [preauth]
+Mar  7 07:52:07 silverlining sshd[20482]: SSH: Server;Ltype: Version;Remote: 221.181.185.198-62571;Protocol: 2.0;Client: PUTTY
+Mar  7 07:52:07 silverlining sshd[20482]: SSH: Server;Ltype: Kex;Remote: 221.181.185.198-62571;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 07:56:14 silverlining sshd[6893]: SSH: Server;Ltype: Version;Remote: 183.83.217.190-55508;Protocol: 2.0;Client: OpenSSH_7.9p1 Raspbian-10+deb10u2
+Mar  7 07:56:15 silverlining sshd[6893]: SSH: Server;Ltype: Kex;Remote: 183.83.217.190-55508;Enc: chacha20-poly1305@openssh.com;MAC: (null);Comp: none [preauth]
+Mar  7 07:56:15 silverlining sshd[29312]: SSH: Server;Ltype: Version;Remote: 183.83.217.190-55530;Protocol: 2.0;Client: OpenSSH_7.9p1 Raspbian-10+deb10u2
+Mar  7 07:56:15 silverlining sshd[29312]: SSH: Server;Ltype: Kex;Remote: 183.83.217.190-55530;Enc: chacha20-poly1305@openssh.com;MAC: (null);Comp: none [preauth]
+Mar  7 07:56:16 silverlining sshd[6893]: SSH: Server;Ltype: Authname;Remote: 183.83.217.190-55508;Name: pi [preauth]
+Mar  7 07:56:16 silverlining sshd[6893]: Invalid user  from 183.83.217.190 port 55508
+Mar  7 07:56:16 silverlining sshd[6893]: Connection closed by invalid user pi 183.83.217.190 port 55508 [preauth]
+Mar  7 07:56:16 silverlining sshd[29312]: SSH: Server;Ltype: Authname;Remote: 183.83.217.190-55530;Name: pi [preauth]
+Mar  7 07:56:16 silverlining sshd[29312]: Invalid user  from 183.83.217.190 port 55530
+Mar  7 07:56:17 silverlining sshd[29312]: Connection closed by invalid user pi 183.83.217.190 port 55530 [preauth]
+Mar  7 08:01:11 silverlining sshd[20482]: ssh_dispatch_run_fatal: Connection from 221.181.185.198 port 62571: Operation timed out [preauth]
+Mar  7 08:03:25 silverlining sshd[14999]: SSH: Server;Ltype: Version;Remote: 142.93.141.126-36324;Protocol: 2.0;Client: libssh2_1.8.0
+Mar  7 08:03:25 silverlining sshd[14999]: SSH: Server;Ltype: Kex;Remote: 142.93.141.126-36324;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 08:03:26 silverlining sshd[14999]: SSH: Server;Ltype: Authname;Remote: 142.93.141.126-36324;Name: test1 [preauth]
+Mar  7 08:03:26 silverlining sshd[14999]: Invalid user  from 142.93.141.126 port 36324
+Mar  7 08:03:26 silverlining sshd[14999]: Received disconnect from 142.93.141.126 port 36324:11: Normal Shutdown, Thank you for playing [preauth]
+Mar  7 08:03:26 silverlining sshd[14999]: Disconnected from invalid user test1 142.93.141.126 port 36324 [preauth]
+Mar  7 08:06:30 silverlining sshd[2685]: SSH: Server;Ltype: Version;Remote: 221.181.185.29-61505;Protocol: 2.0;Client: PUTTY
+Mar  7 08:06:30 silverlining sshd[2685]: SSH: Server;Ltype: Kex;Remote: 221.181.185.29-61505;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 08:06:31 silverlining sshd[2685]: Received disconnect from 221.181.185.29 port 61505:11:  [preauth]
+Mar  7 08:06:31 silverlining sshd[2685]: Disconnected from 221.181.185.29 port 61505 [preauth]
+Mar  7 08:15:41 silverlining sshd[5150]: SSH: Server;Ltype: Version;Remote: 222.109.26.50-59608;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:15:41 silverlining sshd[5150]: SSH: Server;Ltype: Kex;Remote: 222.109.26.50-59608;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:15:42 silverlining sshd[5150]: SSH: Server;Ltype: Authname;Remote: 222.109.26.50-59608;Name: root [preauth]
+Mar  7 08:15:43 silverlining sshd[5150]: Received disconnect from 222.109.26.50 port 59608:11: Bye Bye [preauth]
+Mar  7 08:15:43 silverlining sshd[5150]: Disconnected from authenticating user root 222.109.26.50 port 59608 [preauth]
+Mar  7 08:18:00 silverlining sshd[3732]: SSH: Server;Ltype: Version;Remote: 128.199.142.33-36866;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:18:00 silverlining sshd[3732]: SSH: Server;Ltype: Kex;Remote: 128.199.142.33-36866;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:18:01 silverlining sshd[3732]: SSH: Server;Ltype: Authname;Remote: 128.199.142.33-36866;Name: root [preauth]
+Mar  7 08:18:01 silverlining sshd[3732]: Received disconnect from 128.199.142.33 port 36866:11: Bye Bye [preauth]
+Mar  7 08:18:01 silverlining sshd[3732]: Disconnected from authenticating user root 128.199.142.33 port 36866 [preauth]
+Mar  7 08:19:49 silverlining sshd[664]: SSH: Server;Ltype: Version;Remote: 147.135.124.86-35788;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:19:49 silverlining sshd[664]: SSH: Server;Ltype: Kex;Remote: 147.135.124.86-35788;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:19:49 silverlining sshd[664]: SSH: Server;Ltype: Authname;Remote: 147.135.124.86-35788;Name: root [preauth]
+Mar  7 08:19:49 silverlining sshd[664]: Received disconnect from 147.135.124.86 port 35788:11: Bye Bye [preauth]
+Mar  7 08:19:49 silverlining sshd[664]: Disconnected from authenticating user root 147.135.124.86 port 35788 [preauth]
+Mar  7 08:19:56 silverlining sshd[26497]: SSH: Server;Ltype: Version;Remote: 142.93.141.126-35624;Protocol: 2.0;Client: libssh2_1.8.0
+Mar  7 08:19:56 silverlining sshd[26497]: SSH: Server;Ltype: Kex;Remote: 142.93.141.126-35624;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 08:19:56 silverlining sshd[26497]: SSH: Server;Ltype: Authname;Remote: 142.93.141.126-35624;Name: testing [preauth]
+Mar  7 08:19:56 silverlining sshd[26497]: Invalid user testing from 142.93.141.126 port 35624
+Mar  7 08:19:56 silverlining sshd[26497]: Received disconnect from 142.93.141.126 port 35624:11: Normal Shutdown, Thank you for playing [preauth]
+Mar  7 08:19:56 silverlining sshd[26497]: Disconnected from invalid user testing 142.93.141.126 port 35624 [preauth]
+Mar  7 08:21:41 silverlining sshd[13558]: SSH: Server;Ltype: Version;Remote: 109.62.166.40-52008;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:21:41 silverlining sshd[13558]: SSH: Server;Ltype: Kex;Remote: 109.62.166.40-52008;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:21:42 silverlining sshd[13558]: SSH: Server;Ltype: Authname;Remote: 109.62.166.40-52008;Name: root [preauth]
+Mar  7 08:21:42 silverlining sshd[13558]: Received disconnect from 109.62.166.40 port 52008:11: Bye Bye [preauth]
+Mar  7 08:21:42 silverlining sshd[13558]: Disconnected from authenticating user root 109.62.166.40 port 52008 [preauth]
+Mar  7 08:27:47 silverlining sshd[2245]: SSH: Server;Ltype: Version;Remote: 181.177.245.165-51374;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:27:47 silverlining sshd[2245]: SSH: Server;Ltype: Kex;Remote: 181.177.245.165-51374;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:27:48 silverlining sshd[2245]: SSH: Server;Ltype: Authname;Remote: 181.177.245.165-51374;Name: root [preauth]
+Mar  7 08:27:49 silverlining sshd[2245]: Received disconnect from 181.177.245.165 port 51374:11: Bye Bye [preauth]
+Mar  7 08:27:49 silverlining sshd[2245]: Disconnected from authenticating user root 181.177.245.165 port 51374 [preauth]
+Mar  7 08:28:00 silverlining sshd[13009]: SSH: Server;Ltype: Version;Remote: 40.117.142.38-40286;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:28:01 silverlining sshd[13009]: SSH: Server;Ltype: Kex;Remote: 40.117.142.38-40286;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:28:01 silverlining sshd[13009]: SSH: Server;Ltype: Authname;Remote: 40.117.142.38-40286;Name: root [preauth]
+Mar  7 08:28:01 silverlining sshd[13009]: Received disconnect from 40.117.142.38 port 40286:11: Bye Bye [preauth]
+Mar  7 08:28:01 silverlining sshd[13009]: Disconnected from authenticating user root 40.117.142.38 port 40286 [preauth]
+Mar  7 08:33:36 silverlining sshd[22162]: SSH: Server;Ltype: Version;Remote: 121.127.241.25-59270;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:33:36 silverlining sshd[22162]: SSH: Server;Ltype: Kex;Remote: 121.127.241.25-59270;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:33:37 silverlining sshd[22162]: SSH: Server;Ltype: Authname;Remote: 121.127.241.25-59270;Name: root [preauth]
+Mar  7 08:33:37 silverlining sshd[22162]: Received disconnect from 121.127.241.25 port 59270:11: Bye Bye [preauth]
+Mar  7 08:33:37 silverlining sshd[22162]: Disconnected from authenticating user root 121.127.241.25 port 59270 [preauth]
+Mar  7 08:33:59 silverlining sshd[4591]: SSH: Server;Ltype: Version;Remote: 81.68.163.129-43776;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:33:59 silverlining sshd[4591]: SSH: Server;Ltype: Kex;Remote: 81.68.163.129-43776;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:34:01 silverlining sshd[4591]: SSH: Server;Ltype: Authname;Remote: 81.68.163.129-43776;Name: root [preauth]
+Mar  7 08:34:01 silverlining sshd[4591]: Received disconnect from 81.68.163.129 port 43776:11: Bye Bye [preauth]
+Mar  7 08:34:01 silverlining sshd[4591]: Disconnected from authenticating user root 81.68.163.129 port 43776 [preauth]
+Mar  7 08:36:00 silverlining sshd[14009]: SSH: Server;Ltype: Version;Remote: 221.181.185.143-37362;Protocol: 2.0;Client: PUTTY
+Mar  7 08:36:00 silverlining sshd[14009]: SSH: Server;Ltype: Kex;Remote: 221.181.185.143-37362;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 08:36:23 silverlining sshd[24930]: SSH: Server;Ltype: Version;Remote: 142.93.141.126-34916;Protocol: 2.0;Client: libssh2_1.8.0
+Mar  7 08:36:23 silverlining sshd[24930]: SSH: Server;Ltype: Kex;Remote: 142.93.141.126-34916;Enc: aes128-ctr;MAC: hmac-sha2-256;Comp: none [preauth]
+Mar  7 08:36:24 silverlining sshd[24930]: SSH: Server;Ltype: Authname;Remote: 142.93.141.126-34916;Name: test1 [preauth]
+Mar  7 08:36:24 silverlining sshd[24930]: Invalid user  from 142.93.141.126 port 34916
+Mar  7 08:36:24 silverlining sshd[24930]: Received disconnect from 142.93.141.126 port 34916:11: Normal Shutdown, Thank you for playing [preauth]
+Mar  7 08:36:24 silverlining sshd[24930]: Disconnected from invalid user test1 142.93.141.126 port 34916 [preauth]
+Mar  7 08:38:04 silverlining sshd[18604]: Did not receive identification string from 144.91.109.149 port 41460
+Mar  7 08:42:23 silverlining sshd[10980]: SSH: Server;Ltype: Version;Remote: 144.34.171.214-38108;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:42:24 silverlining sshd[10980]: SSH: Server;Ltype: Kex;Remote: 144.34.171.214-38108;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:42:27 silverlining sshd[10980]: SSH: Server;Ltype: Authname;Remote: 144.34.171.214-38108;Name: root [preauth]
+Mar  7 08:42:28 silverlining sshd[10980]: Received disconnect from 144.34.171.214 port 38108:11: Bye Bye [preauth]
+Mar  7 08:42:28 silverlining sshd[10980]: Disconnected from authenticating user root 144.34.171.214 port 38108 [preauth]
+Mar  7 08:45:03 silverlining sshd[14009]: ssh_dispatch_run_fatal: Connection from 221.181.185.143 port 37362: Operation timed out [preauth]
+Mar  7 08:49:08 silverlining sshd[24744]: SSH: Server;Ltype: Version;Remote: 144.91.109.149-39558;Protocol: 2.0;Client: libssh2_1.4.3
+Mar  7 08:49:09 silverlining sshd[24744]: SSH: Server;Ltype: Kex;Remote: 144.91.109.149-39558;Enc: aes128-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:49:10 silverlining sshd[24744]: SSH: Server;Ltype: Authname;Remote: 144.91.109.149-39558;Name: user [preauth]
+Mar  7 08:49:10 silverlining sshd[24744]: Invalid user user from 144.91.109.149 port 39558
+Mar  7 08:49:10 silverlining sshd[24744]: Received disconnect from 144.91.109.149 port 39558:11: Normal Shutdown, Thank you for playing [preauth]
+Mar  7 08:49:10 silverlining sshd[24744]: Disconnected from invalid user user 144.91.109.149 port 39558 [preauth]
+Mar  7 08:50:20 silverlining sshd[14553]: Did not receive identification string from 81.161.63.100 port 7756
+Mar  7 08:50:24 silverlining sshd[6725]: SSH: Server;Ltype: Version;Remote: 81.161.63.100-19716;Protocol: 2.0;Client: Go
+Mar  7 08:50:24 silverlining sshd[24345]: SSH: Server;Ltype: Version;Remote: 81.161.63.100-19724;Protocol: 2.0;Client: Go
+Mar  7 08:50:24 silverlining sshd[6725]: SSH: Server;Ltype: Kex;Remote: 81.161.63.100-19716;Enc: aes128-gcm@openssh.com;MAC: (null);Comp: none [preauth]
+Mar  7 08:50:24 silverlining sshd[24345]: SSH: Server;Ltype: Kex;Remote: 81.161.63.100-19724;Enc: aes128-gcm@openssh.com;MAC: (null);Comp: none [preauth]
+Mar  7 08:50:29 silverlining sshd[26604]: SSH: Server;Ltype: Version;Remote: 20.188.107.54-1024;Protocol: 2.0;Client: libssh-0.6.3
+Mar  7 08:50:29 silverlining sshd[26604]: SSH: Server;Ltype: Kex;Remote: 20.188.107.54-1024;Enc: aes256-ctr;MAC: hmac-sha1;Comp: none [preauth]
+Mar  7 08:50:30 silverlining sshd[24345]: Connection reset by 81.161.63.100 port 19724 [preauth]
+Mar  7 08:50:30 silverlining sshd[6725]: Connection reset by 81.161.63.100 port 19716 [preauth]
+Mar  7 08:50:31 silverlining sshd[26604]: SSH: Server;Ltype: Authname;Remote: 20.188.107.54-1024;Name: root [preauth]
+Mar  7 08:50:31 silverlining sshd[26604]: Received disconnect from 20.188.107.54 port 1024:11: Bye Bye [preauth]
