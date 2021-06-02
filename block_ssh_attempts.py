@@ -1,3 +1,15 @@
+'''
+read file 
+make list from file
+
+find line with invalid user
+
+filter Invalid user,group session, copy ip address to list, 
+if ip adrees sx3 in list then call pwblock ip
+
+for loop sesion id to current session id then send ip adrees to ip address array
+if session id same as current then continue else newsession to current session id and add ip to array
+'''
 #!/usr/bin/python3
 import re
 #read the log file
