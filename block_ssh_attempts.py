@@ -12,6 +12,7 @@ if session id same as current then continue else newsession to current session i
 '''
 #!/usr/bin/python3
 import re
+import fwblock
 #read the log file
 with open('./sshdlog') as sshdlog:
     readsshdlog = sshdlog.read()
@@ -19,6 +20,9 @@ with open('./sshdlog') as sshdlog:
 #test the splitted lines 
 # print(splitsshdlog[0])
 def remove_unnecessary_lines(array):
+    '''
+    Returns only the lines from an invalid user.
+    '''
     array_with_invalidUser = []
     for line in array:
         if "Invalid user" in line:
@@ -26,8 +30,36 @@ def remove_unnecessary_lines(array):
     return(array_with_invalidUser)
 
 def filter_ips_by_session_id(array):
+    '''
+    Return IP address once per session ID.
+    '''
     array_of_ips = []
     current_session_id = ''
     for line in array:
+        #this regex is searching for the ip and retund the first one of this line 
+        ip= re.findall(r"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b", line)[0]
+        #this regex get the session ID of current line that has a [] bracket around
         session = re.findall(r'\[\d+\]', line)[0]
-        ip= 
+        if  current_session_id != session:
+            current_session_id = session
+            array_of_ips.append(ip)
+    return(array_of_ips)
+
+def block_user(array):
+    '''
+    Block all IP address that tried at least 3 times. 
+    '''
+    ips_to_block = list(set([x for x in array if array.count(x) > 2]))
+    for x in ips_to_block:
+        fwblock.block_ip(x)
+        print(x)
+    
+
+        
+
+block_user(filter_ips_by_session_id(remove_unnecessary_lines(splitsshdlog)))
+
+
+        
+
+
