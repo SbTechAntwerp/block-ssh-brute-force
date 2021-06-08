@@ -11,6 +11,7 @@ for loop sesion id to current session id then send ip adrees to ip address array
 if session id same as current then continue else newsession to current session id and add ip to array
 '''
 #!/usr/bin/python3
+from os import sep
 import re
 import fwblock
 #read the log file
@@ -36,8 +37,11 @@ def filter_ips_by_session_id(array):
     array_of_ips = []
     current_session_id = ''
     for line in array:
+        ip = line.split()[9]
         #this regex is searching for the ip and retund the first one of this line 
-        ip= re.findall(r"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b", line)[0]
+        # ip= re.findall(r"(\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b)|((([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])))", line)[0]
+        
+
         #this regex get the session ID of current line that has a [] bracket around
         session = re.findall(r'\[\d+\]', line)[0]
         if  current_session_id != session:
@@ -55,9 +59,14 @@ def block_user(array):
         print(x)
 
 
-block_user(filter_ips_by_session_id(remove_unnecessary_lines(splitsshdlog)))
+# block_user(filter_ips_by_session_id(
+# split =filter_ips_by_session_id(remove_unnecessary_lines(splitsshdlog))
+# for x in split:
+#     print(x)
+    
 
-
-        
-
-
+block_user(
+    filter_ips_by_session_id(
+        remove_unnecessary_lines(
+            splitsshdlog
+    )))
